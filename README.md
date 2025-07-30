@@ -140,7 +140,7 @@
         - Analyzed cluster stability across different parameter settings
         - Demonstrated understanding of clustering algorithm limitations and strengths
         
-### 6. DATA SCIENCE PROJECT: Customer Churn & Medical Prediction System
+### 6. DATA SCIENCE PROJECT: Nearest Neighbours and Scaling Methods
   #### Technical Implementation:
         - Developed predictive models using nearest neighbor algorithms
         - Implemented comprehensive data preprocessing pipeline
@@ -234,33 +234,7 @@
         - Data preprocessing: SimpleImputer, OrdinalEncoder, LabelEncoder
         - Model evaluation metrics
 
-  ### 9. ARTIFICIAL NEURAL NETWORKS IMPLEMENTATION
-  #### Project Overview:
-        - Implementation and analysis of artificial neural networks using the Avila dataset
-        - Focus on Multi-Layer Perceptron (MLP) classifier
-        - Parameter tuning and performance evaluation
-        - Comparison with other classification models
-  #### Key Components:
-        1. Dataset Analysis:
-          - Avila Bible dataset with 12 classes
-          - 10 numerical features
-          - Training set analysis
-          - Class distribution examination
-        2. Model Implementation:
-          - MLPClassifier configuration
-          - Hidden layer architecture exploration
-          - Activation function testing
-          - Solver optimization
-          - Regularization parameter tuning
-        3. Performance Optimization:
-          - Cross-validation analysis
-          - Hidden layer units experimentation (10-100)
-          - Multi-layer architecture testing
-          - Early stopping implementation
-          - Learning rate adjustment
-        4. Model Comparison:
-          - Naive Bayes vs KNN vs MLP
-  ### 10. NETWORK ANALYSIS IMPLEMENTATION
+  ### 9. NETWORK ANALYSIS IMPLEMENTATION
   #### Project Overview:
         - Class network analysis using student unit connections 
         - Australian airport routes network analysis
@@ -295,7 +269,7 @@
         - Community detection algorithms
         - Graph metrics calculation
 
-### 11. Project is an assignment focusing on statistical analysis with emphasis on:
+### 10. Project is an assignment focusing on statistical analysis with emphasis on:
         1. Linear and logistic regression techniques
         2. Data visualization 
         3. Model evaluation
@@ -317,7 +291,7 @@
           - Matplotlib/seaborn for visualization
           - Statistical modeling libraries
 
-### 12. International education costs across different:
+### 11. International education costs across different:
         - Countries
         - Universities
         - Programs
@@ -349,7 +323,7 @@
         - Machine learning: scikit-learn
         - Statistical analysis tool
         
-### 13. Analyzing corporate board relationships and director networks using a dataset containing:
+### 12. Analyzing corporate board relationships and director networks using a dataset containing:
         - Company directorships
         - Director details
         - Software background information
