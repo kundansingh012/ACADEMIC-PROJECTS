@@ -41,6 +41,7 @@ This project helps international students estimate the **total cost of studying 
 - **KMeans** clustering on top 3 cost drivers: `Tuition`, `Rent`, `Living_Cost`
 - Visualised clusters in Tuition vs Total Cost space
 - Cluster labels added to the dataset for optional model use
+- silhouette score
 
 ---
 
@@ -50,9 +51,13 @@ This project helps international students estimate the **total cost of studying 
 |--------------------------|-------------|-------------------|
 | Linear Regression         | Baseline    | Simple benchmark  |
 | Polynomial Regression     | Improved    | Captures non-linearity |
-| Decision Tree Regressor  | Advanced (Week 7+) | Non-linear modeling |
+| Decision Tree Regressor  | Advanced  | Non-linear modeling |
 | KMeans Clustering         | Exploratory | Affordability groups |
 
+## Model Comparison: 
+- Linear vs Polynomial Regression vs Decision Tree
+
+## Residual Analysis – Model Error Diagnostics
 ---
 
 ## Parameter Tuning
@@ -130,7 +135,6 @@ Users can input a **university name** to retrieve:
 
 - [Scikit-learn Metrics Docs](https://scikit-learn.org/stable/modules/model_evaluation.html)
 - [Kaggle Dataset Source](https://www.kaggle.com/datasets/adilshamim8/cost-of-international-education/data)
-- COMP6200 Lecture Material (Weeks 1–10)
 
 ---
 
