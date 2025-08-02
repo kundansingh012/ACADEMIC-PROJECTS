@@ -153,5 +153,6 @@ Decision Tree (Tuned)	0.9919	3,603.92	2,369.87
 Contact:
 Kundan Singh Shekhawat
 📧 kundansingh.shekhawat@students.mq.edu.au
+
 🔗 GitHub (https://github.com/kundansingh012/DATA-PROJECTS)
 
