@@ -1,4 +1,4 @@
-# COMP6200 Assignment 2 – Prediction of International Education Cost
+# Prediction of International Education Cost
 
 ## Project Overview
 
@@ -90,7 +90,7 @@ Users can input a **university name** to retrieve:
 
 ---
 
-## Assignment Requirement Checklist
+## Requirement Checklist
 
 | Requirement                                                | Status |
 |-------------------------------------------------------------|--------|
@@ -102,7 +102,7 @@ Users can input a **university name** to retrieve:
 
 ---
 
-## Assignment Suggestions Coverage
+## Other Coverage
 
 | Suggestion                                                                 | Status |
 |----------------------------------------------------------------------------|--------|
