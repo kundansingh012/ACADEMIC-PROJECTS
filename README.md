@@ -1,14 +1,8 @@
 # Data Science Portfolio
 
-<<<<<<< HEAD
 **** More detailed README files are included inside the individual project.**
 
-### 1. Analyzing corporate board relationships and director networks using a dataset containing:
-        - Company directorships
-        - Director details
-        - Software background information
-  ### Main Components Being Analyzed
-=======
+### Main Components Being Analyzed
 - A collection of data science projects demonstrating skills in statistical analysis, machine learning, network analysis, clustering, and predictive modeling.
 Each project includes clear objectives, methodology, results, and code improvements, with links to full detailed documentation.
 
@@ -18,11 +12,11 @@ Each project includes clear objectives, methodology, results, and code improveme
 - Statistical Analysis for Investment Prediction
 
 ## 1. Board of Directors Network Analysis
+
 ### Overview
 - Analyzes corporate board networks using director and company data to reveal relationships, influence patterns, and board dynamics. Uses network analysis, demographic insights, and temporal trends to identify key players and structural patterns.
 
 ### Main Components Being Analyzed
->>>>>>> 80bc74049d76efa8b51265123b40e24f18a3ae1b
         1. Director Information:
            - Names
            - Software backgrounds (boolean t/f)
@@ -60,8 +54,10 @@ Each project includes clear objectives, methodology, results, and code improveme
 - DATA-PROJECTS/Analyzing corporate board relationships and director networks using a dataset/README.md
 
 ## 2. Prediction of International Education Cost
+
 ### Overview
 - Predicts the total cost of studying abroad for international students by analyzing tuition, rent, living costs, visa, and insurance expenses. Compares regression models, applies clustering, and visualizes affordability patterns.
+- 
 ### Dataset Content
         Main cost components being analyzed:
         - Tuition fees (USD)
@@ -70,6 +66,7 @@ Each project includes clear objectives, methodology, results, and code improveme
         - Visa fees
         - Insurance costs
         - Exchange rates
+        
 ### Key Steps
 - Data Preparation – Handle missing values, feature engineering (Living_Cost_Total, Rent_Total, Total_Cost), scaling
 - Modeling – Linear Regression, Polynomial Regression, Decision Tree (tuned max_depth)
@@ -107,6 +104,7 @@ Decision Tree (Tuned)	0.9919	3,603.92	2,369.87
 - DATA-PROJECTS/International education costs/README.md
 
 ## 3. Statistical Analysis for Investment Prediction
+
 ### Overview
 - Performs statistical investigation to support investment prediction, combining distribution analysis with regression modeling. Includes data exploration, classical and robust regression techniques, and visualization of statistical patterns.
 
