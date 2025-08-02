@@ -1,5 +1,7 @@
 # DATA SCIENCE PROJECTS
 
+**** More detailed README files are included inside the individual project.**
+
 ### 1. Analyzing corporate board relationships and director networks using a dataset containing:
         - Company directorships
         - Director details
