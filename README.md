@@ -1,5 +1,6 @@
-# DATA SCIENCE PROJECTS
+# Data Science Portfolio
 
+<<<<<<< HEAD
 **** More detailed README files are included inside the individual project.**
 
 ### 1. Analyzing corporate board relationships and director networks using a dataset containing:
@@ -7,6 +8,21 @@
         - Director details
         - Software background information
   ### Main Components Being Analyzed
+=======
+- A collection of data science projects demonstrating skills in statistical analysis, machine learning, network analysis, clustering, and predictive modeling.
+Each project includes clear objectives, methodology, results, and code improvements, with links to full detailed documentation.
+
+## Table of Contents
+- Board of Directors Network Analysis
+- Prediction of International Education Cost
+- Statistical Analysis for Investment Prediction
+
+## 1. Board of Directors Network Analysis
+### Overview
+- Analyzes corporate board networks using director and company data to reveal relationships, influence patterns, and board dynamics. Uses network analysis, demographic insights, and temporal trends to identify key players and structural patterns.
+
+### Main Components Being Analyzed
+>>>>>>> 80bc74049d76efa8b51265123b40e24f18a3ae1b
         1. Director Information:
            - Names
            - Software backgrounds (boolean t/f)
@@ -16,35 +32,37 @@
            - Bipartite networks (directors-companies)
            - Centrality measures
            - Connected components
-  ### Tools Being Used
-        - NetworkX for graph analysis
-        - Pandas for data manipulation
-        - Matplotlib/Plotly for visualization
-        - Seaborn for statistical visualization
-  ### Key Analyses Performed
-        1. Network Metrics:
+           
+### Highlights
+- Built from SEC DEF 14A filings (U.S. public company data)
+- Bipartite networks linking directors and companies
+- Network Metrics:
            - Eigenvector centrality
            - Degree centrality
            - Betweenness centrality
-        2. Temporal Analysis:
+- Temporal Analysis:
            - Director tenure lengths
            - Board turnover rates
            - Appointment patterns
-        3. Director Demographics:
+- Director Demographics:
            - Age distribution
            - Compensation patterns
-           - Software background distribution
-  ### Code Improvements Made
-        1. Consolidated imports
-        2. Added data validation
-        3. Improved graph creation efficiency
-        4. Enhanced error handling for network calculations
-### 2. International education costs across different:
-        - Countries
-        - Universities
-        - Programs
-        - Degree levels
-  ### Dataset Content
+           - Software background distributio
+
+### Technologies
+- Python 3.11+, Jupyter Notebook
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
+- networkx
+
+### Detailed README:
+- DATA-PROJECTS/Analyzing corporate board relationships and director networks using a dataset/README.md
+
+## 2. Prediction of International Education Cost
+### Overview
+- Predicts the total cost of studying abroad for international students by analyzing tuition, rent, living costs, visa, and insurance expenses. Compares regression models, applies clustering, and visualizes affordability patterns.
+### Dataset Content
         Main cost components being analyzed:
         - Tuition fees (USD)
         - Living costs
@@ -52,7 +70,13 @@
         - Visa fees
         - Insurance costs
         - Exchange rates
-  ### Project Objectives
+### Key Steps
+- Data Preparation – Handle missing values, feature engineering (Living_Cost_Total, Rent_Total, Total_Cost), scaling
+- Modeling – Linear Regression, Polynomial Regression, Decision Tree (tuned max_depth)
+- Clustering – KMeans on top cost drivers; affordability grouping
+- Custom Tool – University lookup for predicted cost and affordability cluster
+
+### Project Objectives
         1. Analyze cost variations across:
            - Different countries
            - Program levels
@@ -65,17 +89,38 @@
            - Financial planning
            - Destination selection
            - Program choices
-  ### Tools Being Used
-        - Python with pandas and numpy
-        - Visualization: matplotlib and seaborn
-        - Machine learning: scikit-learn
-        - Statistical analysis tool
-        
-### 3. Project is an assignment focusing on statistical analysis with emphasis on:
-        1. Linear and logistic regression techniques
-        2. Data visualization 
-        3. Model evaluation
-  ### Data Analysis Components
+          - Statistical modeling libraries
+
+### Results
+Model	R² Score	RMSE ($)	MAE ($)
+Linear Regression	1.0000	0.00	0.00
+Polynomial Regression	1.0000	0.00	0.00
+Decision Tree (Tuned)	0.9919	3,603.92	2,369.87
+
+### Technologies
+- Python 3.11+, Jupyter Notebook
+- pandas, numpy
+- scikit-learn
+- matplotlib, seaborn
+
+### Detailed README:
+- DATA-PROJECTS/International education costs/README.md
+
+## 3. Statistical Analysis for Investment Prediction
+### Overview
+- Performs statistical investigation to support investment prediction, combining distribution analysis with regression modeling. Includes data exploration, classical and robust regression techniques, and visualization of statistical patterns.
+
+### Key Features
+- Data ingestion & inspection
+- Visualization of payroll/investment trends
+- Outlier detection & discussion
+- Linear Regression models (OLS & Huber Regressor)
+- Distribution experiments (Central Limit Theorem)
+- Model evaluation with MAE & MSE
+- Log transformation on revenue data for improved prediction
+- Logistic regression for negative media coverage classification
+
+### Data Analysis Components
         1. Dataset Characteristics:
           - Time series data spanning 24 months
           - Key variables include Payroll, Revenue, and Media Coverage
@@ -88,8 +133,27 @@
           - Monthly progression metrics
           - Financial indicators (Payroll, Revenue)
           - Media sentiment tracking
-        4. Tools Used:
-          - Python with pandas, numpy, sklearn
-          - Matplotlib/seaborn for visualization
-          - Statistical modeling libraries
+
+### Technologies
+- Python 3.8+, Jupyter Notebook
+- pandas, numpy
+- seaborn, matplotlib
+- scikit-learn
+
+### Detailed README:
+- DATA-PROJECTS/Statistical analysis for investment prediction/README.md
+
+**Data Analysis: pandas, numpy**
+**Visualization: matplotlib, seaborn, plotly**
+**Modeling: scikit-learn**
+**Graph Analysis: networkx**
+**Notebooks: Jupyter**
+  
+### 4. Contributing
+- Each project lives in its own folder with a self-contained README.
+
+Contact:
+Kundan Singh Shekhawat
+📧 kundansingh.shekhawat@students.mq.edu.au
+🔗 GitHub (https://github.com/kundansingh012/DATA-PROJECTS)
 
