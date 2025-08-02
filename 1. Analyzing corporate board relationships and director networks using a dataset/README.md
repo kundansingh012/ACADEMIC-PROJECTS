@@ -92,7 +92,7 @@ The project includes built-in ethical considerations:
 ✅ Tasks Completed
 Task	Description
 Task 1	Added betweenness centrality, explained all metrics
-Task 2	Fixed variable naming, added influence summary, documented logic
+Task 2	Added influence summary, documented logic
 Task 3	Used compensation as an additional ranking feature
 Task 4	Proposed Crunchbase Enterprise Dataset ([https://www.crunchbase.com/discover/organization.companies](https://www.crunchbase.com/discover/organization.companies)) 
 Task 5a	Created visual presentation with chart insights
