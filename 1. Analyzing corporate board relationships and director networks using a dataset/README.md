@@ -1,4 +1,4 @@
-# Assingment 3: Board of Directors Network Analysis
+# Board of Directors Network Analysis
 
 ## Overview
 This project analyzes corporate board networks using director and company data to understand relationships, influence patterns, and board dynamics. The analysis includes centrality measures, demographic information, and temporal patterns in board memberships.
