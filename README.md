@@ -142,16 +142,22 @@ Decision Tree (Tuned)	0.9919	3,603.92	2,369.87
 - DATA-PROJECTS/Statistical analysis for investment prediction/README.md
 
 **Data Analysis: pandas, numpy**
+
 **Visualization: matplotlib, seaborn, plotly**
+
 **Modeling: scikit-learn**
+
 **Graph Analysis: networkx**
+
 **Notebooks: Jupyter**
   
 ### 4. Contributing
 - Each project lives in its own folder with a self-contained README.
 
 Contact:
+
 Kundan Singh Shekhawat
+
 📧 kundansingh.shekhawat@students.mq.edu.au
 
 🔗 GitHub (https://github.com/kundansingh012/DATA-PROJECTS)
